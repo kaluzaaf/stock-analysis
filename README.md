@@ -1,4 +1,4 @@
-# stock-analysis
+# Stock-analysis
 Analysis of Green Stocks
 
 # Overview of Project
@@ -6,11 +6,11 @@ The purpose and background of this project was to help our friend Steve with ide
 
 # Results 
 The results show there is a tremendous amount of volatility within the green energy sector. The data from 2017 and 2018 show wide swings in asset prices. The average return in 2017 was 67%, but in 2018 the average return was 8.5%. Additionally, there were wide swings within the index as well; the standard deviation for 2017 was 70% and in 2018 it was 45%. This tells us there is a lot of variation between stocks. A good example of this is Steve's parents’ favorite stock (DQ) which experienced a 198% increase in 2017 before a 62% fall in 2018. There are two stocks that showed strong returns in both years, RUN and ENPH. Both stocks were among the most actively traded during both years, through RUN's returns of 5% in 2017 was well below the index's average. In summary, I would suggest Steve do more research on RUN and ENPH to gain a better understanding as to why these stocks have outperformed their peers over this two-year stretch. I would also want to examine their performance since 2018 to see if the trend continued.
+
 ![2017 Analysis](https://user-images.githubusercontent.com/100163289/159179432-37db8823-0ef2-4c72-8403-20127b22a28d.png)
 ![2018 Analysis](https://user-images.githubusercontent.com/100163289/159179439-8cefd9bb-263d-467e-af6e-8ef7cd56ac65.png)
 
 Below is the refactored code. You can see that it combines several separate functions into a single, streamlined VBA script that is easier to read, follow, and troubleshoot.
-
 
 Sub AllStocksAnalysisRefactored()
 
@@ -135,6 +135,7 @@ Sub AllStocksAnalysisRefactored()
     MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)
 
 End Sub
+
 ![image](https://user-images.githubusercontent.com/100163289/159182903-83737844-85c1-467c-9af8-d15ff8444d93.png)
 
 # Summary
